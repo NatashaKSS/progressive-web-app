@@ -31,7 +31,6 @@ module.exports = {
       },
       {
         test: /.css$/,
-        exclude: /node_modules/,
         use: [
           {
             loader: 'style-loader'
@@ -40,7 +39,8 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: true,
-              localIdentName: '[name]-[local]-[hash:base64:6]'
+              localIdentName: '[name]-[local]-[hash:base64:6]',
+              camelCase: true
             }
           }
         ]
