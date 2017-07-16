@@ -9,6 +9,7 @@ module.exports = {
   entry: path.resolve(__dirname, SRCDIR, 'app.js'),
   output: {
     path: path.resolve(__dirname, PUBLICDIR),
+    publicPath: '/public/',
     filename: 'bundle.js'
   },
   plugins: [
@@ -18,14 +19,16 @@ module.exports = {
     new DashboardPlugin()
   ],
   module: {
-    loaders: [{
-      test: /\.js$/,
-      loader: 'babel-loader',
-      exclude: /node_modules/,
-      query: {
-        cacheDirectory: true,
-        presets: ['react', 'es2015']
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        query: {
+          cacheDirectory: true,
+          presets: ['react', 'es2015']
+        }
       }
-    }]
+    ]
   }
 };
