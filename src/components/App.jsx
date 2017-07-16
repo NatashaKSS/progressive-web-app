@@ -1,10 +1,13 @@
 import React from 'react';
 
+import '../base.css';
 import styles from './App.css';
+
+import Header from "./Header/Header.jsx";
 
 const App = () => {
   return(
-    <h1 className={styles.headingText}>Hello World! I am the App component.</h1>
+    <Header />
   );
 };
 
