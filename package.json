@@ -1,0 +1,39 @@
+{
+  "name": "progressive-react-app",
+  "description": "My attempt at building a production-ready progressive web app.",
+  "author": "Natasha Koh Sze Sze",
+  "homepage": "https://github.com/NatashaKSS/progressive-web-app#readme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "react"
+  ],
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack-dashboard -- webpack-dev-server",
+    "test": "test"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "2.7.0",
+    "webpack-dashboard": "^0.4.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatashaKSS/progressive-web-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NatashaKSS/progressive-web-app/issues"
+  }
+}
