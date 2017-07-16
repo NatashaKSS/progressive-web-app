@@ -28,6 +28,11 @@ module.exports = {
           cacheDirectory: true,
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /.css$/,
+        loader: 'style-loader!css-loader?modules,localIdentName=[hash:base64:6]-[name]-[local]',
+        exclude: /node_modules/
       }
     ]
   }
