@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import styles from './Header.css';
 
@@ -9,8 +10,15 @@ const Header = () => {
         <h1 className={styles.title}>Fruits & Veggies</h1>
         <nav>
           <ul className={styles.navList}>
-            <li className={styles.navItem}><a href="#">Home</a></li>
-            <li className={styles.navItem}><a href="#">About</a></li>
+            <li className={styles.navItem}>
+              <Link className={styles.link} to='/'>Home</Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link className={styles.link} to='/about'>About</Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link className={styles.link} to='/posts'>Posts</Link>
+            </li>
           </ul>
         </nav>
       </div>
