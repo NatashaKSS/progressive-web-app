@@ -10,7 +10,7 @@ module.exports = {
   entry: path.resolve(__dirname, SRCDIR, 'app.js'),
   output: {
     path: path.resolve(__dirname, PUBLICDIR),
-    publicPath: '/public/',
+    publicPath: '/',
     filename: 'bundle.js'
   },
   plugins: [
