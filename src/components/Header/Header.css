@@ -4,13 +4,13 @@
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: var(--site-width);
   margin: 0 auto;
 }
 
 .title {
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   color: forestgreen;
   font-size: 3.5rem;
   text-transform: uppercase;
