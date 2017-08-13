@@ -3,11 +3,15 @@ import React from 'react';
 import '../base.css';
 import styles from './App.css';
 
-import Header from "./Header/Header.jsx";
+import Header from './Header/Header.jsx';
+import Post from './Post/Post.jsx';
 
 const App = () => {
   return(
-    <Header />
+    <div>
+      <Header />
+      <Post />
+    </div>
   );
 };
 
