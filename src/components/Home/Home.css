@@ -1,0 +1,22 @@
+.title {
+  font-size: 1.8rem;
+}
+
+.container {
+  padding: 1rem 2rem;
+}
+
+.content {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.link {
+  color: #2331de;
+}
+
+.link:focus,
+.link:hover {
+  color: #7e88fc;
+  cursor: pointer;
+}
