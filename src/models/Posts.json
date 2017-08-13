@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "010",
+      "title": "Apples",
+      "content": "High in fiber, vitamin C and lots of antioxidants."
+    },
+    {
+      "id": "011",
+      "title": "Salmon",
+      "content": "Nutrient dense, high-quality protein, potassium, selenium & vitamin B12."
+    },
+    {
+      "id": "012",
+      "title": "Pistachios",
+      "content": "Rich in antioxidants, carotenes, vitamin E and dietary fibers."
+    }
+  ]
+}
