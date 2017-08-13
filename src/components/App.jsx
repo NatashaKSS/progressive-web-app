@@ -1,21 +1,17 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 import '../base.css';
 import styles from './App.css';
 
 import Header from './Header/Header.jsx';
-import PostCollection from './PostCollection/PostCollection.jsx';
-import Post from './Post/Post.jsx';
+import Main from './Main/Main.jsx';
 
 const App = () => {
   return(
     <div>
       <Header />
-      <PostCollection>
-        <Post />
-        <Post />
-        <Post />
-      </PostCollection>
+      <Main />
     </div>
   );
 };
