@@ -9,16 +9,6 @@ import PostCollection from '../PostCollection/PostCollection';
 import Main from './Main';
 
 describe('<Main />', () => {
-  test('<Main /> should render as expected', () => {
-    const component = mount(
-      <MemoryRouter history={BrowserHistory}>
-        <Main />
-      </MemoryRouter>
-    );
-    const tree = toJson(component);
-    expect(tree).toMatchSnapshot();
-  });
-
   test('<Main /> should render <Home /> correctly at route \'/\'', () => {
     const component = mount(
       <MemoryRouter initialEntries={[ '/' ]} initialIndex={0}>
