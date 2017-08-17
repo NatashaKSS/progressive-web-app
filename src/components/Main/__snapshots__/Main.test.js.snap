@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render as expected 1`] = `
+<main>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/about"
+    />
+    <Route
+      component={[Function]}
+      path="/posts"
+    />
+  </Switch>
+</main>
+`;

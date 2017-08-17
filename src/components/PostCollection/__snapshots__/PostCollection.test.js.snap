@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCollection /> should render as expected 1`] = `
+<div
+  className="pageContainer"
+>
+  <h2
+    className="title"
+  >
+    My Collection of Healthy Foods
+  </h2>
+  <div
+    className="postsContainer"
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/posts"
+      />
+      <Route
+        component={[Function]}
+        path="/posts/:id"
+      />
+    </Switch>
+  </div>
+</div>
+`;

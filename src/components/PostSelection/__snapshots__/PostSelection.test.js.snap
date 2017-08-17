@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostSelection /> should render as expected 1`] = `
+<div>
+  <ul>
+    <li
+      className="postItem"
+    >
+      <Link
+        replace={false}
+        to="/posts/010"
+      >
+        Apples
+      </Link>
+    </li>
+    <li
+      className="postItem"
+    >
+      <Link
+        replace={false}
+        to="/posts/011"
+      >
+        Salmon
+      </Link>
+    </li>
+    <li
+      className="postItem"
+    >
+      <Link
+        replace={false}
+        to="/posts/012"
+      >
+        Pistachios
+      </Link>
+    </li>
+  </ul>
+</div>
+`;

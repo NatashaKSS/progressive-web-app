@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render as expected 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="container"
+  >
+    <h1
+      className="title"
+    >
+      Fruits & Veggies
+    </h1>
+    <nav>
+      <ul
+        className="navList"
+      >
+        <li
+          className="navItem"
+        >
+          <Link
+            className="link"
+            replace={false}
+            to="/"
+          >
+            Home
+          </Link>
+        </li>
+        <li
+          className="navItem"
+        >
+          <Link
+            className="link"
+            replace={false}
+            to="/about"
+          >
+            About
+          </Link>
+        </li>
+        <li
+          className="navItem"
+        >
+          <Link
+            className="link"
+            replace={false}
+            to="/posts"
+          >
+            Posts
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;
